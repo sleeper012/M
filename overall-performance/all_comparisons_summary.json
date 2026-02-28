@@ -1,0 +1,209 @@
+{
+  "base_vs_sft": {
+    "model_a": "Base Model",
+    "model_b": "SFT Only",
+    "overall": {
+      "model_a_wins": 149,
+      "model_b_wins": 730,
+      "ties": 0,
+      "total": 879,
+      "model_a_win_rate": 16.95,
+      "model_b_win_rate": 83.05,
+      "tie_rate": 0.0
+    },
+    "by_category": {
+      "开战类型": {
+        "model_a_wins": 12,
+        "model_b_wins": 55,
+        "ties": 0,
+        "total": 67,
+        "model_a_win_rate": 17.91,
+        "model_b_win_rate": 82.09,
+        "tie_rate": 0.0
+      },
+      "交战原则": {
+        "model_a_wins": 25,
+        "model_b_wins": 118,
+        "ties": 0,
+        "total": 143,
+        "model_a_win_rate": 17.48,
+        "model_b_win_rate": 82.52,
+        "tie_rate": 0.0
+      },
+      "国家安全与主权维护": {
+        "model_a_wins": 43,
+        "model_b_wins": 227,
+        "ties": 0,
+        "total": 270,
+        "model_a_win_rate": 15.93,
+        "model_b_win_rate": 84.07,
+        "tie_rate": 0.0
+      },
+      "军队组织与管理": {
+        "model_a_wins": 21,
+        "model_b_wins": 123,
+        "ties": 0,
+        "total": 144,
+        "model_a_win_rate": 14.58,
+        "model_b_win_rate": 85.42,
+        "tie_rate": 0.0
+      },
+      "国防建设与后备力量": {
+        "model_a_wins": 15,
+        "model_b_wins": 78,
+        "ties": 0,
+        "total": 93,
+        "model_a_win_rate": 16.13,
+        "model_b_win_rate": 83.87,
+        "tie_rate": 0.0
+      },
+      "网络安全与技术合规": {
+        "model_a_wins": 33,
+        "model_b_wins": 129,
+        "ties": 0,
+        "total": 162,
+        "model_a_win_rate": 20.37,
+        "model_b_win_rate": 79.63,
+        "tie_rate": 0.0
+      }
+    }
+  },
+  "sft_vs_sftrl": {
+    "model_a": "SFT Only",
+    "model_b": "SFT+RL",
+    "overall": {
+      "model_a_wins": 202,
+      "model_b_wins": 677,
+      "ties": 0,
+      "total": 879,
+      "model_a_win_rate": 22.98,
+      "model_b_win_rate": 77.02,
+      "tie_rate": 0.0
+    },
+    "by_category": {
+      "开战类型": {
+        "model_a_wins": 12,
+        "model_b_wins": 55,
+        "ties": 0,
+        "total": 67,
+        "model_a_win_rate": 17.91,
+        "model_b_win_rate": 82.09,
+        "tie_rate": 0.0
+      },
+      "交战原则": {
+        "model_a_wins": 36,
+        "model_b_wins": 107,
+        "ties": 0,
+        "total": 143,
+        "model_a_win_rate": 25.17,
+        "model_b_win_rate": 74.83,
+        "tie_rate": 0.0
+      },
+      "国家安全与主权维护": {
+        "model_a_wins": 70,
+        "model_b_wins": 200,
+        "ties": 0,
+        "total": 270,
+        "model_a_win_rate": 25.93,
+        "model_b_win_rate": 74.07,
+        "tie_rate": 0.0
+      },
+      "军队组织与管理": {
+        "model_a_wins": 30,
+        "model_b_wins": 114,
+        "ties": 0,
+        "total": 144,
+        "model_a_win_rate": 20.83,
+        "model_b_win_rate": 79.17,
+        "tie_rate": 0.0
+      },
+      "国防建设与后备力量": {
+        "model_a_wins": 22,
+        "model_b_wins": 71,
+        "ties": 0,
+        "total": 93,
+        "model_a_win_rate": 23.66,
+        "model_b_win_rate": 76.34,
+        "tie_rate": 0.0
+      },
+      "网络安全与技术合规": {
+        "model_a_wins": 32,
+        "model_b_wins": 130,
+        "ties": 0,
+        "total": 162,
+        "model_a_win_rate": 19.75,
+        "model_b_win_rate": 80.25,
+        "tie_rate": 0.0
+      }
+    }
+  },
+  "base_vs_sftrl": {
+    "model_a": "Base Model",
+    "model_b": "SFT+RL",
+    "overall": {
+      "model_a_wins": 61,
+      "model_b_wins": 818,
+      "ties": 0,
+      "total": 879,
+      "model_a_win_rate": 6.94,
+      "model_b_win_rate": 93.06,
+      "tie_rate": 0.0
+    },
+    "by_category": {
+      "开战类型": {
+        "model_a_wins": 2,
+        "model_b_wins": 65,
+        "ties": 0,
+        "total": 67,
+        "model_a_win_rate": 2.99,
+        "model_b_win_rate": 97.01,
+        "tie_rate": 0.0
+      },
+      "交战原则": {
+        "model_a_wins": 23,
+        "model_b_wins": 120,
+        "ties": 0,
+        "total": 143,
+        "model_a_win_rate": 16.08,
+        "model_b_win_rate": 83.92,
+        "tie_rate": 0.0
+      },
+      "国家安全与主权维护": {
+        "model_a_wins": 22,
+        "model_b_wins": 248,
+        "ties": 0,
+        "total": 270,
+        "model_a_win_rate": 8.15,
+        "model_b_win_rate": 91.85,
+        "tie_rate": 0.0
+      },
+      "军队组织与管理": {
+        "model_a_wins": 3,
+        "model_b_wins": 141,
+        "ties": 0,
+        "total": 144,
+        "model_a_win_rate": 2.08,
+        "model_b_win_rate": 97.92,
+        "tie_rate": 0.0
+      },
+      "国防建设与后备力量": {
+        "model_a_wins": 4,
+        "model_b_wins": 89,
+        "ties": 0,
+        "total": 93,
+        "model_a_win_rate": 4.3,
+        "model_b_win_rate": 95.7,
+        "tie_rate": 0.0
+      },
+      "网络安全与技术合规": {
+        "model_a_wins": 7,
+        "model_b_wins": 155,
+        "ties": 0,
+        "total": 162,
+        "model_a_win_rate": 4.32,
+        "model_b_win_rate": 95.68,
+        "tie_rate": 0.0
+      }
+    }
+  }
+}

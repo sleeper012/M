@@ -1,0 +1,52 @@
+{
+  "Base Model": {
+    "safety_rank1": 6,
+    "explain_rank1": 5,
+    "help_rank1": 31,
+    "overall_rank1": 9,
+    "safety_avg": 4.484641638225256,
+    "explain_avg": 4.434584755403868,
+    "help_avg": 4.154721274175199,
+    "overall_avg": 4.506257110352673
+  },
+  "SFT Only": {
+    "safety_rank1": 130,
+    "explain_rank1": 150,
+    "help_rank1": 58,
+    "overall_rank1": 128,
+    "safety_avg": 2.9215017064846416,
+    "explain_avg": 2.7531285551763367,
+    "help_avg": 3.4254835039817975,
+    "overall_avg": 3.0034129692832763
+  },
+  "RL Only": {
+    "safety_rank1": 8,
+    "explain_rank1": 14,
+    "help_rank1": 145,
+    "overall_rank1": 17,
+    "safety_avg": 3.533560864618885,
+    "explain_avg": 3.1990898748577927,
+    "help_avg": 2.627986348122867,
+    "overall_avg": 3.3117178612059157
+  },
+  "SFT+RL": {
+    "safety_rank1": 263,
+    "explain_rank1": 483,
+    "help_rank1": 222,
+    "overall_rank1": 386,
+    "safety_avg": 2.072810011376564,
+    "explain_avg": 1.6678043230944255,
+    "help_avg": 2.38452787258248,
+    "overall_avg": 1.8714448236632537
+  },
+  "DeepSeek API": {
+    "safety_rank1": 472,
+    "explain_rank1": 227,
+    "help_rank1": 423,
+    "overall_rank1": 339,
+    "safety_avg": 1.987485779294653,
+    "explain_avg": 2.945392491467577,
+    "help_avg": 2.4072810011376564,
+    "overall_avg": 2.3071672354948807
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "Base Model": {
+    "num_samples": 900,
+    "distinct_n": {
+      "distinct_1": {
+        "global_corpus": 0.03321145233611215,
+        "global_sentence_avg": 0.4264415385065462,
+        "per_question_avg": 0.4264415385065462
+      },
+      "distinct_2": {
+        "global_corpus": 0.22051540311482518,
+        "global_sentence_avg": 0.7309101770456767,
+        "per_question_avg": 0.7309101770456767
+      },
+      "distinct_3": {
+        "global_corpus": 0.45825425664311686,
+        "global_sentence_avg": 0.8387757846906584,
+        "per_question_avg": 0.8387757846906584
+      },
+      "distinct_4": {
+        "global_corpus": 0.6103469085654131,
+        "global_sentence_avg": 0.9069487750386368,
+        "per_question_avg": 0.9069487750386368
+      }
+    },
+    "self_bleu": {
+      "per_question_avg": 0.0,
+      "per_question_std": 0.0
+    },
+    "total_generations": 900
+  },
+  "SFT Only": {
+    "num_samples": 900,
+    "distinct_n": {
+      "distinct_1": {
+        "global_corpus": 0.02458775480212843,
+        "global_sentence_avg": 0.4719907025923364,
+        "per_question_avg": 0.4719907025923364
+      },
+      "distinct_2": {
+        "global_corpus": 0.1868779280745166,
+        "global_sentence_avg": 0.741677988662053,
+        "per_question_avg": 0.741677988662053
+      },
+      "distinct_3": {
+        "global_corpus": 0.37544100533824265,
+        "global_sentence_avg": 0.8282810729029284,
+        "per_question_avg": 0.8282810729029284
+      },
+      "distinct_4": {
+        "global_corpus": 0.49869723331872096,
+        "global_sentence_avg": 0.8789738692962044,
+        "per_question_avg": 0.8789738692962044
+      }
+    },
+    "self_bleu": {
+      "per_question_avg": 0.0,
+      "per_question_std": 0.0
+    },
+    "total_generations": 900
+  },
+  "SFT+RL": {
+    "num_samples": 900,
+    "distinct_n": {
+      "distinct_1": {
+        "global_corpus": 0.02041610643266577,
+        "global_sentence_avg": 0.4212220223068673,
+        "per_question_avg": 0.4212220223068673
+      },
+      "distinct_2": {
+        "global_corpus": 0.1582467094759996,
+        "global_sentence_avg": 0.71115281126939,
+        "per_question_avg": 0.71115281126939
+      },
+      "distinct_3": {
+        "global_corpus": 0.344491083285904,
+        "global_sentence_avg": 0.8107113599193868,
+        "per_question_avg": 0.8107113599193868
+      },
+      "distinct_4": {
+        "global_corpus": 0.48300162880003805,
+        "global_sentence_avg": 0.8688227650091118,
+        "per_question_avg": 0.8688227650091118
+      }
+    },
+    "self_bleu": {
+      "per_question_avg": 0.0,
+      "per_question_std": 0.0
+    },
+    "total_generations": 900
+  },
+  "RAG": {
+    "num_samples": 900,
+    "distinct_n": {
+      "distinct_1": {
+        "global_corpus": 0.031550194009977654,
+        "global_sentence_avg": 0.5905259545400988,
+        "per_question_avg": 0.5905259545400988
+      },
+      "distinct_2": {
+        "global_corpus": 0.2248338531704319,
+        "global_sentence_avg": 0.8685820968900783,
+        "per_question_avg": 0.8685820968900783
+      },
+      "distinct_3": {
+        "global_corpus": 0.44740321602817634,
+        "global_sentence_avg": 0.9310238680591316,
+        "per_question_avg": 0.9310238680591316
+      },
+      "distinct_4": {
+        "global_corpus": 0.5997608780187699,
+        "global_sentence_avg": 0.9595816572298967,
+        "per_question_avg": 0.9595816572298967
+      }
+    },
+    "self_bleu": {
+      "per_question_avg": 0.0,
+      "per_question_std": 0.0
+    },
+    "total_generations": 898
+  }
+}
